@@ -1,0 +1,71 @@
+body{
+    background-image: url(fondo2.png);
+    background-repeat: no-repeat;
+   background-size: 100%;
+   background-size: cover;
+   background-attachment: fixed;
+
+}
+.navbar-logo{
+    background-image: url(coso.png);
+    --bs-navbar-padding-y: 1rem;
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+   
+}
+
+
+.navbar-brand img{
+    --bs-navbar-brand-padding-y: 0.5rem;
+    width: auto;
+    height: 8rem;
+}
+
+
+.navbar-opciones{
+    background-image:url(madera1.png) ;
+}
+.team {
+  background: #5d3c25;      
+  border: 2px solid #544030;
+  border-radius: 10px;        
+  padding: 14px 20px;
+  
+  width: auto;
+  height: auto;
+  color: white;  
+  max-width: 287px;     
+  min-height: 440px;    
+  margin: 13rem auto 0;     
+}
+
+.btn{
+    background-color: #321c0b
+}
+
+.btn-primary{
+    --bs-btn-hover-bg: green;
+    border: black
+}
+
+.puntaje{
+    font-family: "Karla", system-ui, sans-serif;
+    font-size: 2rem;
+}
+
+
+
+.team svg {
+  width: 44px;
+  height: 44px;
+}
+
+@media (max-width: 576px) {
+  .team {
+    padding: 12px 8px;
+  }
+  .team svg {
+    width: 32px;
+    height: 32px;
+  }
+}
